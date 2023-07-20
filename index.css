@@ -44,7 +44,7 @@ img{
     display: flex;
     align-items: center;
     /* padding: 0 13px; */
-    /* cursor: pointer; */
+    cursor: pointer;
 }
 nav{
     height: 60px;
@@ -1141,6 +1141,9 @@ nav{
    .nav-center .search-box{
         padding: 5px;
     }
+    /* .dot-popup.show{
+        width: 75%;
+    } */
 }
 @media (max-width:468px){
     .list-container{
@@ -1168,6 +1171,11 @@ nav{
     .vid-list .icon-wrap{
         display: none;
     }
+    .dot-popup.show{
+        width: 50%;
+    }
+    .dot-popup li a {
+        padding: 2px 2px;
    .footer{
     display: block;
     display: flex;
